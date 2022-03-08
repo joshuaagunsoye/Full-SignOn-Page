@@ -1,0 +1,55 @@
+body
+{
+    font-family: 'Space Mono', monospace;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    background-color: #92A8D1;
+}
+#container
+{
+    border: 5px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    align-items: center;
+    padding-bottom: 30px;
+    /* background-color: whitesmoke; */
+}
+.cont
+{
+    border: 5px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    height: 200px;
+    align-items: center;
+    padding-bottom: 30px;
+    /* background-color: whitesmoke; */
+
+
+}
+.field
+{
+    width: 300px;
+}
+
+#userView
+{
+    /* background-color: whitesmoke; */
+    height: 215px;    
+}
+
+#second
+{
+    display: none;
+    text-align: center;
+}
+
+.btn:hover
+{
+    background-color: orange;
+    cursor: pointer;
+}

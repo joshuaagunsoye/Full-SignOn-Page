@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel= "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div id="container">
+        <form id="newForm" onsubmit="getData(event)">
+            <h2>Register</h2>  
+
+            <label>First name</label><br>
+            <i class="far fa-user-circle"></i>
+            <input id="fullname" name ="FName" class= "field" ></input><br>
+
+            <label>Last name</label><br>
+            <i class="far fa-user-circle"></i>
+            <input id="lastname" name="LName" class= "field"></input><br>
+
+            <label>User Name</label><br>
+            <i class="far fa-user-circle"></i>
+            <input id="username" name="UName" class= "field"></input><br>
+
+            <label>Email</label><br>
+
+            <i class="far fa-envelope"></i>
+            <input id="email" name="Email" class= "field"></input><br>
+
+            <label>Country</label><br>
+            <i class="far fa-map"></i>
+            <input id="country" name="Country" class= "field"></input><br>
+
+            <label>City</label><br>
+            <i class="far fa-map"></i>
+            <input id="city" name="City" class= "field"></input><br>
+
+            <label>Street</label><br>
+            <i class="far fa-envelope"></i>
+            <input id="street" name="Street" class= "field"></input><br>
+
+            <label>Password</label><br>
+            <i class="fas fa-key"></i>
+            <input id="password" name="Pass" class= "field" type="password"></input><br>         
+               
+            <label for="Male">Male</label>
+            <input id="male" type="radio" id="male" name="Gender" value="male" ><br>
+            <label for="Female">Female</label>
+            <input id="female" type="radio" id="female" name="Gender" value="female"><br>
+            <input class="btn" type="submit" value="Signup">
+                       
+        </form>
+        
+        </div>
+        <div id="second" class="cont">
+            <form id="secondForm" onsubmit="getUpdatedData(event)">
+                <h2>Update</h2>  
+    
+                <label>User Name</label><br>
+                <i class="far fa-user-circle"></i>
+                <input id="updatedFullname" name = "UName" class= "field" ></input><br>
+    
+                <!-- <label>Email</label><br>
+                <i class="far fa-envelope"></i>
+                <input id="updatedEmail" name="updatedEmail" class= "field"></input><br> -->
+        
+                <input class="btn" type="submit" value="Update">
+                           
+            </form>
+
+        </div>
+        
+    <div id="userView"></div>
+    
+</body>
+<script src="signup.js"></script>
+
+</html>
